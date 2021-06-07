@@ -12,10 +12,12 @@ city = input("In what city do you live in?")
 
 #Ask user what they enjoy
 
-enjoy = input("What do you like to do?")
+love = input("What do you love doing?")
 
 #Create output text
 
-text = input("Say something.")
+string = "Your name is {} and you are {} years old. You live in {} and you love {}"
+output = string.format(name, age, city, love)
 
 #Print output to screen
+print(output)
