@@ -12,8 +12,8 @@ difficulty = 1
 health_potion = int(random.randint(25,50) / difficulty)
 
 # Adding a potion to the current health
-# health += health_potion
-health = health + health_potion
+health += health_potion
+# health = health + health_potion
 
 print(health)
  
