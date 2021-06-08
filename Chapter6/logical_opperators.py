@@ -13,3 +13,6 @@ C = 10
 D = 5
 if C >= 10 and D > 1:
 	print("it worked again")
+
+if C >= 10 or D > 1:
+	print("it worked again and again")
