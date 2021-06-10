@@ -1,9 +1,13 @@
-a = 250
+a = [1,2,3]
+
 def f1():
-	a = 100
+	a[0] = 5
+	a[2] = "Hi"
 	print(a)
 
 def f2():
-	a = 50
+	a = 50 # local
 	print(a)
-print(a)
+
+f1()
+f2()
